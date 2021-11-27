@@ -28,10 +28,10 @@ if($news_result) {
                 <div class="col-md-12" style="margin-bottom: 20px; margin-top: 20px;">
                     <!-- gives it the card feeling -->
                     <div class="card">
-                        <div class="card-header">
+                        <div class="card-header" style="background-color: rgb(252,252,240)">
                         <h3 style="text-align: center; color: rgb(23,86,22)">News Feed</h3>
                         </div>
-                        <div class="card-body" style="padding: 0px">
+                        <div class="card-body" style="padding: 0px;">
     
     ';
 

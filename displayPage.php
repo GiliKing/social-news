@@ -88,7 +88,7 @@
                     <div class="col-md-12" style="margin-bottom: 20px; margin-top: 20px;">
                         <!-- gives it the card feeling -->
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header" style="background-color: rgb(252,252,240);">
                             <h3 class="card-title" id="titleCom" style="text-align: center; color: rgb(23,86,22)">'.$title.'</h3>
                             </div>
                             <div class="card-body" style="padding-top: 0px; padding-bottom: 0px;">
