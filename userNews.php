@@ -53,7 +53,7 @@ if($news_result) {
         $newsDate = $row['date'];
 
         echo '
-                <a href="UserPage.php?id='.base64_encode($id).'" style="text-decoration: none;"><h5 style="text-align: center;"><small>>></small>'.$newsTitle.'<small><<</small></h5></a>
+                <a href="userPage.php?id='.base64_encode($id).'" style="text-decoration: none;"><h5 style="text-align: center;"><small>>></small>'.$newsTitle.'<small><<</small></h5></a>
             ';
 
     }
