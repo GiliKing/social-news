@@ -14,7 +14,7 @@ p#next_num0 {
 
 require "database/connect.php";
 
-$news_query = "SELECT * FROM `engine` WHERE `id` BETWEEN 1 AND 10";
+$news_query = "SELECT * FROM `engine`;
 
 $news_result = mysqli_query($conn, $news_query);
 
