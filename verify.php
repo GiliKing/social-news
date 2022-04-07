@@ -18,7 +18,6 @@ if($verified == 1) {
 
 if($verified == 0) {
 
-    echo "It is working from this point";
     include 'functions/sendEmail.php';
 
     sendVerificationEmail($email, $token);
